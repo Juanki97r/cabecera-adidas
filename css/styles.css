@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header {
+    display: flex;
+    flex-flow: column;
+}
+
+header > p{
+    display: flex;
+    
+    color: white;
+    justify-content: center;
+}
+
+
+header > p > span:first-child{
+   display: none;
+}
+header > div{
+    display: flex;
+}
+header > div:first-child(2){
+    background-color: white;
+}
+header > div:nth-child(3){
+    background-color: grey;
+}
